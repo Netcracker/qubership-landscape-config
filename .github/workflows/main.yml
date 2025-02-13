@@ -1,0 +1,27 @@
+name: Redeploy production on push
+on: [push,workflow_dispatch]
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd /home/ubuntu/
+            sudo docker stop $(sudo docker ps -a -q)
+            sudo docker system prune --all --force
+            sudo rm -rf qubership-landscape-config
+            git clone https://github.com/Netcracker/qubership-landscape-config.git
+            cd /home/ubuntu/qubership-landscape-config
+            sudo docker compose --progress plain -f ./compose.yml up -d
