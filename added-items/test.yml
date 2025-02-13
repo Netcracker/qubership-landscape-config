@@ -13,3 +13,4 @@ landscape:
             repo_url: https://github.com/example
             logo: fake.svg          
             project: REJECT
+            description: This is a fake application item - use as an example
