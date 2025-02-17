@@ -8,7 +8,7 @@ landscape:
         name: Example Subcategory
         items:
           - item:
-            name: "reject" item
+            name: \"reject\" item
             homepage_url: https://www.example.org
             repo_url: https://github.com/example
             logo: fake.svg          
@@ -21,7 +21,7 @@ landscape:
         name: Example Subcategory
         items:
           - item:
-            name: "graduated" item
+            name: \"graduated\" item
             homepage_url: https://www.example.org
             repo_url: https://github.com/example
             logo: fake.svg
@@ -34,7 +34,7 @@ landscape:
         name: Example Subcategory
         items:
           - item:
-            name: "sandbox" item
+            name: \"sandbox\" item
             homepage_url: https://www.example.org
             repo_url: https://github.com/example
             logo: fake.svg
@@ -47,7 +47,7 @@ landscape:
         name: Example Subcategory
         items:
           - item:
-            name: "archived" item
+            name: \"archived\" item
             homepage_url: https://www.example.org
             repo_url: https://github.com/example
             logo: fake.svg
@@ -60,7 +60,7 @@ landscape:
         name: Example Subcategory
         items:
           - item:
-            name: "absent" value item
+            name: \"absent\" value item
             homepage_url: https://www.example.org
             repo_url: https://github.com/example
             logo: fake.svg
