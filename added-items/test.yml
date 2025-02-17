@@ -8,10 +8,10 @@ landscape:
         name: Example Subcategory
         items:
           - item:
-            name: \"reject\" item
+            name: reject item
             homepage_url: https://www.example.org
             repo_url: https://github.com/example
-            logo: fake.svg          
+            logo: nc_logo.svg
             project: REJECT
             description: This item has "reject" value in "project" field. Case-insensitive.
   - category:
@@ -21,10 +21,10 @@ landscape:
         name: Example Subcategory
         items:
           - item:
-            name: \"graduated\" item
+            name: graduated item
             homepage_url: https://www.example.org
             repo_url: https://github.com/example
-            logo: fake.svg
+            logo: nc_logo.svg
             project: graduated
             description: This item has "graduated" value in "project" field. Case-sensitive!
   - category:
@@ -34,10 +34,10 @@ landscape:
         name: Example Subcategory
         items:
           - item:
-            name: \"sandbox\" item
+            name: sandbox item
             homepage_url: https://www.example.org
             repo_url: https://github.com/example
-            logo: fake.svg
+            logo: nc_logo.svg
             project: sandbox
             description: This item has "sandbox" value in "project" field. Case-sensitive!
   - category:
@@ -47,10 +47,10 @@ landscape:
         name: Example Subcategory
         items:
           - item:
-            name: \"archived\" item
+            name: archived item
             homepage_url: https://www.example.org
             repo_url: https://github.com/example
-            logo: fake.svg
+            logo: nc_logo.svg
             project: archived
             description: This item has "archived" value in "project" field. Case-sensitive!
   - category:
@@ -60,8 +60,8 @@ landscape:
         name: Example Subcategory
         items:
           - item:
-            name: \"absent\" value item
+            name: absent value item
             homepage_url: https://www.example.org
             repo_url: https://github.com/example
-            logo: fake.svg
+            logo: nc_logo.svg
             description: This item has no "project" field.
