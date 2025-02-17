@@ -14,3 +14,16 @@ landscape:
             logo: fake.svg          
             project: REJECT
             description: This is a fake application item - use as an example
+  - category:
+    name: Netcracker
+    subcategories:
+      - subcategory:
+        name: Cloud Core
+        items:
+          - item:
+            name: mTSL Component
+            homepage_url: https://www.example.org
+            repo_url: https://github.com/example
+            logo: fake.svg
+            project: GRADUATED
+            description: This is a fake application item - use as an example
