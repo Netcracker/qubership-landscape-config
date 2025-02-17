@@ -11,8 +11,8 @@ landscape:
             name: reject item
             homepage_url: https://www.example.org
             repo_url: https://github.com/example
-            logo: nc_logo.svg
-            project: REJECT
+            logo: fake.svg
+            project: reject
             description: This item has "reject" value in "project" field. Case-insensitive.
   - category:
     name: Examples Category
