@@ -2,28 +2,66 @@
 
 landscape:
   - category:
-    name: Provisioning
+    name: Examples Category
     subcategories:
       - subcategory:
-        name: Key Management
+        name: Example Subcategory
         items:
           - item:
-            name: Example
+            name: "reject" item
             homepage_url: https://www.example.org
             repo_url: https://github.com/example
             logo: fake.svg          
             project: REJECT
-            description: This is a fake application item - use as an example
+            description: This item has "reject" value in "project" field. Case-insensitive.
   - category:
-    name: Netcracker
+    name: Examples Category
     subcategories:
       - subcategory:
-        name: Cloud Core
+        name: Example Subcategory
         items:
           - item:
-            name: mTSL Component
+            name: "graduated" item
             homepage_url: https://www.example.org
             repo_url: https://github.com/example
             logo: fake.svg
-            project: GRADUATED
-            description: This is a fake application item - use as an example
+            project: graduated
+            description: This item has "graduated" value in "project" field. Case-sensitive!
+  - category:
+    name: Examples Category
+    subcategories:
+      - subcategory:
+        name: Example Subcategory
+        items:
+          - item:
+            name: "sandbox" item
+            homepage_url: https://www.example.org
+            repo_url: https://github.com/example
+            logo: fake.svg
+            project: sandbox
+            description: This item has "sandbox" value in "project" field. Case-sensitive!
+  - category:
+    name: Examples Category
+    subcategories:
+      - subcategory:
+        name: Example Subcategory
+        items:
+          - item:
+            name: "archived" item
+            homepage_url: https://www.example.org
+            repo_url: https://github.com/example
+            logo: fake.svg
+            project: archived
+            description: This item has "archived" value in "project" field. Case-sensitive!
+  - category:
+    name: Examples Category
+    subcategories:
+      - subcategory:
+        name: Example Subcategory
+        items:
+          - item:
+            name: "absent" value item
+            homepage_url: https://www.example.org
+            repo_url: https://github.com/example
+            logo: fake.svg
+            description: This item has no "project" field.
