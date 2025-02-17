@@ -16,3 +16,21 @@ into base landscape.yml file.
 All new configuration items will be added. All items which suites by category + subcategory + name will override
 corresponding base configuration item properties.
 
+## Supported statuses
+Each configuration item can be rendered differently. The style depends on the "project" attribute value.
+Following values are supported:
+
+| property value | supported by   | result                                                       |
+|----------------|----------------|--------------------------------------------------------------|
+| \<absent\>     | landscape2 app | the item will be rendered as usual, small icon size, colored |
+| graduated      | landscape2 app | big icon size, colored                                       |
+| sandbox        | landscape2 app | small icon size, colored                                     |
+| archived       | landscape2 app | small icon size, gray-colored                                |
+| reject         | conf-processor | small icon size, colored, covered with red cross             |
+So, "sandbox" and "\<absent\>" are rendered similar. The difference is - that "sandbox"-ed item has "SANDBOX" label and may be quickly filtered.
+
+See example below:
+![](.\docs\prj_types.png)
+
+## Deployment
+All commits to "main" branch are automatically deployed to production instance. Approximate deployment time is ~one minute. 
