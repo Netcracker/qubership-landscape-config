@@ -29,8 +29,8 @@ Following values are supported:
 | reject         | conf-processor | small icon size, colored, covered with red cross             |
 So, "sandbox" and "\<absent\>" are rendered similar. The difference is - that "sandbox"-ed item has "SANDBOX" label and may be quickly filtered.
 
-See example below:
-![](.\docs\prj_types.png)
+See example below: <br>
+![](./docs/prj_types.png)
 
 ## Deployment
 All commits to "main" branch are automatically deployed to production instance. Approximate deployment time is ~one minute. 
