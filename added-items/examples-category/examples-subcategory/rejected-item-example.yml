@@ -13,4 +13,4 @@ landscape:
             repo_url: https://github.com/example
             logo: fake.svg
             project: reject
-            description: This item has "reject" value in "project" field. Case-insensitive.
+            description: This item has "reject" value in "project" field. Case-insensitive!
