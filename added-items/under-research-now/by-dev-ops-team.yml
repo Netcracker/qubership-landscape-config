@@ -11,7 +11,7 @@ landscape:
             name: Crossplane
             logo: crossplane.svg
             homepage_url: https://crossplane.io/
-            project: incubating
+            project: researching
             repo_url: https://github.com/crossplane/crossplane
             project_org: https://github.com/crossplane
             description: "Under research by Roman Kichasov (upd: Feb/18/2025)"
@@ -27,17 +27,17 @@ landscape:
             repo_url: https://github.com/hashicorp/terraform
             logo: terraform.svg
             description: "Under research by Roman Kichasov (upd: Feb/18/2025)"
-            project: incubating
+            project: researching
           - item:
             name: OpenTofu
             homepage_url: https://opentofu.org/
             repo_url: https://github.com/opentofu/opentofu
             logo: opentofu.svg
             description: "Under research by Roman Kichasov (upd: Feb/18/2025)"
-            project: incubating
+            project: researching
           - item:
             name: Pulumi
             homepage_url: https://www.pulumi.com
             logo: pulumi.svg
             description: "Under research by Roman Kichasov (upd: Feb/18/2025)"
-            project: incubating
+            project: researching
