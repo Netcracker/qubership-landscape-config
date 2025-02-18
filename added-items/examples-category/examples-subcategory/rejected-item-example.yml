@@ -8,8 +8,9 @@ landscape:
         name: Example Subcategory
         items:
           - item:
-            name: Absent value item
+            name: Rejected item
             homepage_url: https://www.example.org
             repo_url: https://github.com/example
-            logo: nc_logo.svg
-            description: This item has no "project" field.
+            logo: fake.svg
+            project: reject
+            description: This item has "reject" value in "project" field. Case-insensitive.

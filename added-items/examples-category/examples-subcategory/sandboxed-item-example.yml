@@ -8,8 +8,9 @@ landscape:
         name: Example Subcategory
         items:
           - item:
-            name: Absent value item
+            name: Sandboxed item
             homepage_url: https://www.example.org
             repo_url: https://github.com/example
             logo: nc_logo.svg
-            description: This item has no "project" field.
+            project: sandbox
+            description: This item has "sandbox" value in "project" field. Case-sensitive!
