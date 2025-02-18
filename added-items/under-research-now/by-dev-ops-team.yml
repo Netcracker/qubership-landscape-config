@@ -1,0 +1,49 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/data.schema.json
+
+landscape:
+  - category:
+    name: Orchestration & Management
+    subcategories:
+      - subcategory:
+        name: Scheduling & Orchestration
+        items:
+          - item:
+            name: Crossplane
+            logo: crossplane.svg
+            homepage_url: https://crossplane.io/
+            project: incubating
+            repo_url: https://github.com/crossplane/crossplane
+            project_org: https://github.com/crossplane
+            description: "under research by Roman Kichasov (upd: Feb/18/2025)"
+  - category:
+    name: CNCF Members
+    subcategories:
+      - subcategory:
+        name: Silver
+        items:
+          - item:
+            name: Pulumi (member)
+            homepage_url: https://www.pulumi.com
+            logo: pulumi.svg
+            description: "under research by Roman Kichasov (upd: Feb/18/2025)"
+            project: incubating
+  - category:
+    name: Provisioning
+    subcategories:
+      - subcategory:
+        name: Automation & Configuration
+        items:
+          - item:
+            name: Terraform
+            homepage_url: https://www.terraform.io/
+            repo_url: https://github.com/hashicorp/terraform
+            logo: terraform.svg
+            description: "under research by Roman Kichasov (upd: Feb/18/2025)"
+            project: incubating
+          - item:
+            name: OpenTofu
+            homepage_url: https://opentofu.org/
+            repo_url: https://github.com/opentofu/opentofu
+            logo: opentofu.svg
+            description: "under research by Roman Kichasov (upd: Feb/18/2025)"
+            project: incubating
