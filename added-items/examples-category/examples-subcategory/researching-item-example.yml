@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/data.schema.json
+
+landscape:
+  - category:
+    name: Examples Category
+    subcategories:
+      - subcategory:
+        name: Example Subcategory
+        items:
+          - item:
+            name: Researching item
+            homepage_url: https://www.example.org
+            repo_url: https://github.com/example
+            logo: nc_logo.svg
+            project: researching
+            description: This item has "researching" value in "project" field. Case-insensitive.
