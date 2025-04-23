@@ -1,0 +1,197 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/data.schema.json
+
+landscape:
+  - category:
+    name: Orchestration & Management
+    subcategories:
+      - subcategory:
+        name: Scheduling & Orchestration
+        items:
+          - item:
+            name: Kubernetes
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: Volcano
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+      - subcategory:
+        name: Coordination & Service Discovery
+        items:
+          - item:
+            name: Zookeeper
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: Consul
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+
+  - category:
+    name: Platform
+    subcategories:
+      - subcategory:
+        name: PaaS/Container Service
+        items:
+          - item:
+            name: Openshift
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+
+  - category:
+    name: App Definition and Development
+    subcategories:
+      - subcategory:
+        name: Database
+        items:
+          - item:
+            name: PostgreSQL
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: Greenplum DB
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: ArangoDB
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: Clickhouse
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: OpenSearch
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: Cassandra
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: MongoDB
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: Redis
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+      - subcategory:
+        name: Streaming & Messaging
+        items:
+          - item:
+            name: RabbitMQ
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: Kafka
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: Debezium
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+      - subcategory:
+        name: Continuous Integration & Delivery
+        items:
+          - item:
+            name: Apache Airflow
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+
+  - category:
+    name: Runtime
+    subcategories:
+      - subcategory:
+        name: Cloud Native Storage
+        items:
+          - item:
+            name: CloudBerry
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+
+  - category:
+    name: Observability and Analysis
+    subcategories:
+      - subcategory:
+        name: Observability
+        items:
+          - item:
+            name: Prometheus
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: AlertManager
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: Grafana
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: VictoriaMetrics DB
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: Graylog
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: Jaeger
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+
+  - category:
+    name: Provisioning
+    subcategories:
+      - subcategory:
+        name: Security & Compliance
+        items:
+          - item:
+            name: Vault
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: Cert Manager
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+
+  - category:
+    name: CNAI
+    subcategories:
+      - subcategory:
+        name: General Orchestration
+        items:
+          - item:
+            name: Mistral
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+      - subcategory:
+        name: Data Architecture
+        items:
+          - item:
+            name: Hadoop
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: Hive Metastore
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+          - item:
+            name: Trino
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+      - subcategory:
+        name: Data Science
+        items:
+          - item:
+            name: Hue
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
+      - subcategory:
+        name: Distributed Training
+        items:
+          - item:
+            name: Spark
+            project: used
+            description: "Used in platform. Info is provided by Sergey Ivanon on Apr/14/2025"
