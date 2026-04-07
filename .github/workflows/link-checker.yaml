@@ -5,6 +5,10 @@ on:
   push: null
   repository_dispatch: null
   workflow_dispatch: null
+  pull_request:
+    branches: [main]
+    types:
+      [opened, reopened, synchronize]
 permissions:
   contents: read
 jobs:
@@ -12,6 +16,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        id: restore-cache
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
 
       - name: Link Checker
         id: lychee
