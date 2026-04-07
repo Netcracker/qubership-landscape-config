@@ -1,5 +1,5 @@
-name: Redeploy production on push
-on: [push,workflow_dispatch]
+name: Manual redeploy
+on: [workflow_dispatch]
 
 concurrency:
   group: ${{ github.ref }}
@@ -19,8 +19,8 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd /home/ubuntu/
-            sudo docker stop $(sudo docker ps -a -q)
-            sudo docker system prune --all --force
+            sudo docker stop $(sudo docker ps -q --filter "name=mylandscape" --filter="name=caddy")
+            # sudo docker system prune --all --force
             sudo rm -rf qubership-landscape-config
             git clone https://github.com/Netcracker/qubership-landscape-config.git
             cd /home/ubuntu/qubership-landscape-config
